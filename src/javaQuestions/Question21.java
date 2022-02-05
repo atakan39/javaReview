@@ -4,10 +4,34 @@ public class Question21 {
     public static void main(String[] args) {
 
 
-      takeFisrtmidlast("ss");
 
 
 
+
+
+
+
+
+
+
+        takeFisrtmidlast("Atakan");
+        System.out.println(twoMiddle("ataUkan"));
+
+
+
+
+
+
+
+
+
+    }
+
+    public static String twoMiddle(String str){
+
+        str=str.substring(str.length()/2-1,str.length()/2+1);
+
+        return str;
     }
 
     public static void takeFisrtmidlast (String str){
