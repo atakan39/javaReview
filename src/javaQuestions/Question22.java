@@ -1,6 +1,6 @@
 package javaQuestions;
 
-public class Questions22 {
+public class Question22 {
     public static void main(String[] args) {
         String a = "qweqweqweqdsssdd", b = "sasdasdasasdsss", c = "ss";
 
