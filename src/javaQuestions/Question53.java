@@ -47,7 +47,7 @@ public class Question53 {
 }
 /*
     ask user to give 2 numbers;
-53. -Write a program that can return the sum of even numbers between 50 to 55. edge is included
+54. -Write a program that can return the sum of even numbers between 50 to 55. edge is included
 
 
         53. Write a program that can return the factorial number of any given number
