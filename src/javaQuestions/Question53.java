@@ -13,11 +13,12 @@ public class Question53 {
 
         sumOfEvens(number,number2);
 
+        factorialOfNumber(5);
+
+
     }
 
     public static void sumOfEvens(int start, int end){
-
-
         int sum=0;
 
         for (int i = start; i <= end ; i++) {
@@ -26,6 +27,20 @@ public class Question53 {
             }
         }
         System.out.println(sum);
+    }
+
+    public static void factorialOfNumber(int number){
+
+        int factorial=1;
+
+        for (int i = number; i >= 1; i--) {
+
+            factorial=factorial*i;
+            System.out.println(factorial);
+        }
+
+
+
     }
 
 
