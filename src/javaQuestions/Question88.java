@@ -1,11 +1,17 @@
 package javaQuestions;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Question88 {
 
     public static void main(String[] args) {
 
+        findAverage();
+
+    }
+
+    public static void findAverage(){
         Scanner input=new Scanner(System.in);
 
         System.out.println("How many number you want>");
@@ -19,26 +25,23 @@ public class Question88 {
 
             System.out.println("enter a number");
 
-           int num=input.nextInt();
+            int num=input.nextInt();
 
-           while(num<=0){
-               System.out.println("enter again");
-               num=input.nextInt();
-           }
-           nums[i]=num;
-           sum+=num;
+            while(num<=0){
+                System.out.println("enter again");
+                num=input.nextInt();
+            }
+            nums[i]=num;
+            sum+=num;
         }
 
         double average=sum/totalNumbers;
 
-        System.out.println(nums);
+        System.out.println(Arrays.toString(nums));
 
         System.out.println(average);
 
 
-    }
-
-    public static void findAverage(){
 
     }
 
