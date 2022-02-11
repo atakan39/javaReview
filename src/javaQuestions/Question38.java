@@ -10,8 +10,6 @@ public class Question38 {
 
         String merged="";
 
-
-
         if(str.substring(str.length()-1).equals(str2.substring(0,1))){
             merged=str+str2.substring(1);
 
