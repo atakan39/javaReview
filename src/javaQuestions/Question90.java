@@ -9,18 +9,12 @@ public class Question90 {
 
         String [] names=new String[3];
 
-
-
-
-
         for (int i = 0; i < 3; i++) {
 
             System.out.println("enter your friend name "+(i+1));
             names[i]=input.next();
 
         }
-
-
 
         for (String each:  names) {
          //   System.out.println(reverseString(each));
@@ -34,11 +28,13 @@ public class Question90 {
 
 
     }
-
+/*
     public static String reverseString(String str){
 
         return null;
     }
+    */
+
 }
 /*
  90.
