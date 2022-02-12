@@ -27,5 +27,5 @@ public class Question61 {
                 output: 3
 
 
-  @ 70. check if two words is anagram.
+
  */
